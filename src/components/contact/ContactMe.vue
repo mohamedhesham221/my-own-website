@@ -29,7 +29,7 @@
                 <a class="text-decoration-none contact__list--item__link" href="https://github.com/mohamedhesham221" target="_blank">Github</a></li>
               <li class="contact__list--item">
                 <a class="text-decoration-none contact__list--item__link"
-                  :href="href" download="resume">Resume</a></li>
+                  :href="href">Resume</a></li>
             </ul>
         </div>
         <footer-section />
@@ -47,7 +47,7 @@ export default {
     return {
       mobile: '01025742930',
       copy: false,
-      href: 'https://api.cloudinary.com/v1_1/etsh22194/image/download?api_key=749311196436358&attachment=true&audit_context=eyJhY3Rvcl90eXBlIjoidXNlciIsImFjdG9yX2lkIjoiMmYyY2I3ZTE0OWI2OGQwZjFiODExYzFhYjYzYzE4YmMiLCJ1c2VyX2V4dGVybmFsX2lkIjoiOGNkM2U3NjIyMzcyOTI1YTAzNWE0YmFiZTJlMGZmIiwidXNlcl9jdXN0b21faWQiOiJtb2htYWRldHNoODc0QGdtYWlsLmNvbSIsImNvbXBvbmVudCI6ImNvbnNvbGUifQ%3D%3D&public_id=mohamed_hesham_rnvdvl&signature=cb0585245e09cff1d7539541002ce3725e9a011d&target_filename=mohamed_hesham_rnvdvl.pdf&timestamp=1627665714&type=upload',
+      href: 'https://drive.google.com/file/d/1mSYwP-P8cE2zYDnmrXcnUQLq1xiBfp9W/view?usp=sharing',
     };
   },
   created() {
