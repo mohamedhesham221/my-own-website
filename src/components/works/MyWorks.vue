@@ -25,14 +25,12 @@
           <p class="lead project__desc" v-text="project.desc"></p>
           </div>
         </div>
-        <footer-section />
   </div>
 </template>
 <script>
 import Back from '@/mixins/BackMixin';
 import { BIconGithub } from 'bootstrap-vue';
 import Logo from '@/components/Logo.vue';
-import FooterSection from '@/components/Footer.vue';
 import MyProjects from '../../assets/projects.json';
 
 export default {
@@ -46,7 +44,6 @@ export default {
   components: {
     BIconGithub,
     Logo,
-    FooterSection,
   },
   created() {
     this.addProjects();
