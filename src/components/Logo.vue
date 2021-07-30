@@ -14,6 +14,6 @@ export default {
     height: auto;
     position: absolute;
     top: 30px;
-    left: 20px;
+    right: 20px;
   }
 </style>
