@@ -29,7 +29,7 @@
                 <a class="text-decoration-none contact__list--item__link" href="https://github.com/mohamedhesham221" target="_blank">Github</a></li>
               <li class="contact__list--item">
                 <a class="text-decoration-none contact__list--item__link"
-                  href="https://doc-04-0g-docs.googleusercontent.com/docs/securesc/trivo2il2h66a3ut4jtnkiboqg5uohim/fegkc1mddi2a6ve1nvlh3qdnfpja8ep6/1627219875000/00845109894199796431/00845109894199796431/1OrAl0ofLsPhlawfxsZni5oMYyBralGCR?e=download&authuser=0" download="resume">Resume</a></li>
+                  :href="href" download="resume">Resume</a></li>
             </ul>
         </div>
         <footer-section />
@@ -47,6 +47,7 @@ export default {
     return {
       mobile: '01025742930',
       copy: false,
+      href: 'https://doc-08-0g-docs.googleusercontent.com/docs/securesc/trivo2il2h66a3ut4jtnkiboqg5uohim/1sresv8dj0gul48rg1ukqd98ajri7tt5/1627665075000/00845109894199796431/00845109894199796431/1mSYwP-P8cE2zYDnmrXcnUQLq1xiBfp9W?e=download&authuser=0&nonce=a93jd6c5vqob4&user=00845109894199796431&hash=jbapcf824k54nkmc454l2j2p46bnipcm',
     };
   },
   created() {
