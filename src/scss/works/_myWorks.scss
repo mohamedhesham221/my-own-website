@@ -1,0 +1,82 @@
+.works {
+    width: 100%;
+    min-height:  900px;
+    position: absolute;
+    top: 0;
+    background-color: $bgColor;
+    padding-top: 40px;
+    .works__head {
+        color: $white;
+        font-family: $Oswald;
+        font-size: 3.5rem !important;
+    }
+    .go__home {
+        color: $white;
+        opacity: .8;
+        margin-bottom: 30px;
+        cursor: pointer ;
+        font-family: $Montserrat;
+    }
+    .go__home span {
+        color: $red;
+        font-weight: 600;
+    }
+    .works__filter {
+        width: 100%;
+        margin: 50px 0;
+        .works__filter--list {
+            color: $white;
+            font-size: calc(1rem - 3px);
+            font-family: $Oswald;
+            .works__filter--list__item {
+                width: fit-content;
+                letter-spacing: 1px;
+                cursor: pointer;
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 2px;
+                    background-color: $red;
+                    margin-top: 4px;
+                    border-radius: 5px;
+                    transform: scale(0);
+                    transition: all .2s linear;
+                }
+                &:hover::after {
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+    .projects {
+        width: 100%;
+        .projects__item {
+            margin-bottom: 60px;
+            .project__name {
+                color: $white;
+                font-size: calc(2rem - 5px);
+                font-weight: 600;
+                font-family: $Montserrat;
+                display: inline-block;
+                margin-right: 20px;
+            }
+            .project__live {
+                color: $white;
+                font-size: calc(2rem - 5px);
+                font-weight: 600;
+                font-family: $Montserrat;
+                margin-right: 20px;
+            }
+            .project__github {
+                color: #ff6600 !important;
+                font-size: 1.2rem;
+            }
+            .project__desc {
+                color: $red;
+                font-family: $Montserrat;
+                font-size: calc(1rem - 4px);
+            }
+        }
+    }
+}

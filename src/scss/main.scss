@@ -1,0 +1,27 @@
+/*Reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import '../scss/variables';
+//home page
+@import '../scss/home/nav';
+//About page
+@import '../scss/about/aboutMe';
+//Contact Page
+@import '../scss/contact/contactMe';
+//Works Page
+@import '../scss/works/myWorks';
+//meduim screen
+@import '../scss/media-screens/meduimScreen';
+//large screen
+@import '../scss/media-screens/largeScreen';
+
+
+//Share classes
+%header-section {
+    color: $white;
+    font-family: $Montserrat;
+    font-weight: 600;
+}

@@ -1,0 +1,79 @@
+@media (min-width: 1024px) and (max-width: 1300px) {
+    .about,
+    .contact,
+    .works {
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+}
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+    #nav{
+        padding-top: 70px;
+
+    .translate {
+        transform: translateX(50px);
+    }
+    .about-router,
+    .works-router,
+    .contact-router {
+        width: 400px;
+        transition: all .3s linear;
+        cursor: pointer;
+    }
+    .about-router .link,
+    .works-router .link,
+    .contact-router .link {
+        font-size: 6rem !important;
+    }
+}
+
+    .about,
+    .contact,
+    .works {
+        padding-left: 300px;
+        padding-right: 300px;
+}
+.go__home, 
+.about__header,
+.skills .skills__header,
+.contact__header{
+    font-size: 2rem !important;
+}
+.about .about__head {
+    font-size: 6rem !important;
+}
+.about .about__me .img-fluid {
+    height: 450px;
+}
+.about .about__me .my__info,
+.works__filter--list__item {
+    font-size: calc(1rem + 4px);
+}
+.skills__items {
+    text-align: center;
+}
+.about .skills .skills__items ul {
+    padding: 0 !important;
+}
+.skills .skills__items ul li,
+.contact__me .my__info {
+    font-size: calc(1rem + 3px);
+}
+.skills .skills__items ul li::before {
+    width: 40px !important;
+    height: 40px !important;
+    display: block !important;
+    margin: auto !important;
+}
+.project__live {
+    font-size: calc(2rem + 10px) !important;
+}
+.project__desc {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+.project__github {
+    font-size: 2rem !important;
+}
+
+}
