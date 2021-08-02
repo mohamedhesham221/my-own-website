@@ -11,7 +11,7 @@
             (freelancing projects) | internship.
           </p>
             <br>
-            <p class="lead">Feel free to each out through any way below:</p>
+            <p class="lead">Feel free to reach out through any way below:</p>
             <ul class="contact__list list-unstyled">
               <li class="contact__list--item__copy"
                 :class="{showCpyTxt:copy}">Copy to clipboard</li>
