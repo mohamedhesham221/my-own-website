@@ -19,7 +19,7 @@
               <li class="contact__list--item">
                 <a class="text-decoration-none contact__list--item__link"
                   href="mailto:muhammedheshamm2@gmail.com"
-                    target="_blank">@muhammadheshamm2</a>
+                    target="_blank">@muhammedheshamm2</a>
               </li>
               <li class="contact__list--item">
                 <a class="text-decoration-none contact__list--item__link" href="https://www.linkedin.com/in/mohamed-hesham-b7611618a/" target="_blank">Linkedin</a></li>
