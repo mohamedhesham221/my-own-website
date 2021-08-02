@@ -1,6 +1,5 @@
 .contact {
     width: 100%;
-    min-height:  900px;
     position: absolute;
     top: 0;
     background-color: $bgColor;
@@ -8,7 +7,7 @@
 
     .contact__head {
         color: $white;
-        font-family: $Oswald;
+        font-family: $Poppins;
         font-size: 3.5rem !important;
         margin: 100px 0;
     }

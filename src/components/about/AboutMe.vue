@@ -5,7 +5,7 @@
         &nbsp;/&nbsp;About</p>
     <h2 class="h1 about__head">I Build &amp; Design front end websites.</h2>
     <div class="about__me">
-      <img class="img-fluid" src="../../assets/me.png" alt="my picture">
+      <img class="img-fluid" src="../../assets/me.webp" alt="my picture">
       <p class="lead about__header">About Me</p>
       <p class="lead my__info">My name is Mohamed Hesham and I graduated from ASU, faculty of Arts,
         I have a career history that is not long but

@@ -3,6 +3,7 @@
     height: 100%;
     padding-top: 165px;
     overflow: hidden;
+    position: absolute;
 .nav__canvas {
     background-color: $bgColor;
 }
@@ -12,7 +13,7 @@
 
 .link {
     display: block;
-    font-family: $Oswald;
+    font-family: $Poppins;
     font-weight: 700;
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -25,7 +26,7 @@
     color: $red;
 }
 p {
-    font-family: $Oswald;
+    font-family: $Poppins;
     font-weight: 700;
     font-size: 3rem;
 }

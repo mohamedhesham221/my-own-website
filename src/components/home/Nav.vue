@@ -10,7 +10,7 @@
       </transition>
       <transition name="slide2" mode="out-in">
         <router-link to="/works" class="link text-decoration-none color__red"
-          v-if="change">Works</router-link >
+          v-if="change">Work</router-link >
       <p v-else class="lead color__red">I am</p>
       </transition>
       <transition name="slide3" mode="out-in">
@@ -18,7 +18,7 @@
           v-if="change">contact</router-link>
       <p v-else class="lead color__red">Mohamed</p>
       </transition>
-      <p class="lead tap">Tap anywhere</p>
+      <p class="lead tap" v-if="!change">Tap anywhere</p>
       </div>
       <div class="container d-none d-lg-block">
         <p class="lead about-router" @mouseover="about = true" @mouseout="about = false"
@@ -29,7 +29,7 @@
         <p class="lead works-router" @mouseover="works = true" @mouseout="works = false"
             :class="{translate:works}"><router-link :to="works ? '/works' : '#'"
             class="link color__red text-decoration-none">
-          {{ works ? 'Works' : 'I am' }}</router-link>
+          {{ works ? 'Work' : 'I am' }}</router-link>
         </p>
         <p class="lead contact-router" @mouseover="contact = true" @mouseout="contact = false"
             :class="{translate:contact}"><router-link :to="contact ? '/contact' : '#'"
@@ -64,7 +64,7 @@ export default {
   },
   methods: {
     changeState() {
-      this.change = !this.change;
+      this.change = true;
     },
     changeCanvasNum() {
       if (window.innerWidth === 1024) {

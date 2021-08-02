@@ -1,14 +1,13 @@
 .about {
     width: 100%;
-    min-height:  900px;
     position: absolute;
     top: 0;
     background-color: $bgColor;
     padding-top: 40px;
     .about__head {
         color: $white;
-        font-family: $Oswald;
-        font-size: 3.5rem !important;
+        font-family: $Poppins;
+        font-size: 2.5rem !important;
     }
     .go__home {
         color: $white;

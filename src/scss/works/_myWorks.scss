@@ -1,13 +1,13 @@
 .works {
     width: 100%;
-    min-height:  900px;
+    min-height:  100%;
     position: absolute;
     top: 0;
     background-color: $bgColor;
     padding-top: 40px;
     .works__head {
         color: $white;
-        font-family: $Oswald;
+        font-family: $Poppins;
         font-size: 3.5rem !important;
     }
     .go__home {
@@ -27,7 +27,7 @@
         .works__filter--list {
             color: $white;
             font-size: calc(1rem - 3px);
-            font-family: $Oswald;
+            font-family: $Poppins;
             .works__filter--list__item {
                 width: fit-content;
                 letter-spacing: 1px;
@@ -53,6 +53,9 @@
         width: 100%;
         .projects__item {
             margin-bottom: 60px;
+            &:hover .project__live {
+                opacity: .5;
+            }
             .project__name {
                 color: $white;
                 font-size: calc(2rem - 5px);
@@ -67,6 +70,10 @@
                 font-weight: 600;
                 font-family: $Montserrat;
                 margin-right: 20px;
+                cursor: pointer;
+                &:hover {
+                    opacity: .5;
+                }    
             }
             .project__github {
                 color: #ff6600 !important;
@@ -75,8 +82,13 @@
             .project__desc {
                 color: $red;
                 font-family: $Montserrat;
-                font-size: calc(1rem - 4px);
+                font-size: calc(1rem - 1px);
+                font-weight: 900;
             }
         }
+    }
+
+    .isActive {
+        color: $red;
     }
 }

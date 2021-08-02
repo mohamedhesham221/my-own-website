@@ -7,11 +7,16 @@
         <div class="works__filter">
           <ul class="works__filter--list list-unstyled d-flex justify-content-between
             align-items-center">
-            <li class="works__filter--list__item" @click="allFilter">All</li>
-            <li class="works__filter--list__item" @click="spaFilter">SPA projects</li>
-            <li class="works__filter--list__item" @click="pwaFilter">PWA projects</li>
-            <li class="works__filter--list__item" @click="landingFilter">Landing pages</li>
-            <li class="works__filter--list__item" @click="webFilter">websites</li>
+            <li class="works__filter--list__item" :class="{isActive: activeEl == 1}"
+              @click="allFilter">All</li>
+            <li class="works__filter--list__item" :class="{isActive: activeEl == 2}"
+              @click="spaFilter">SPA</li>
+            <li class="works__filter--list__item" :class="{isActive: activeEl == 3}"
+              @click="pwaFilter">PWA</li>
+            <li class="works__filter--list__item" :class="{isActive: activeEl == 4}"
+              @click="landingFilter">Landing pages</li>
+            <li class="works__filter--list__item" :class="{isActive: activeEl == 5}"
+              @click="webFilter">websites</li>
           </ul>
         </div>
         <div class="projects">
@@ -39,6 +44,7 @@ export default {
   data() {
     return {
       projects: [],
+      activeEl: 0,
     };
   },
   components: {
@@ -53,27 +59,35 @@ export default {
       this.projects = MyProjects;
     },
     allFilter() {
+      this.addActiveClass(1);
       this.addProjects();
     },
     spaFilter() {
+      this.addActiveClass(2);
       this.addProjects();
       const spaFilterd = this.projects.filter((project) => project.category.match('spa'));
       this.projects = spaFilterd;
     },
     pwaFilter() {
+      this.addActiveClass(3);
       this.addProjects();
       const pwaFilterd = this.projects.filter((project) => project.category.match('pwa'));
       this.projects = pwaFilterd;
     },
     landingFilter() {
+      this.addActiveClass(4);
       this.addProjects();
       const landingFilterd = this.projects.filter((project) => project.category.match('landing'));
       this.projects = landingFilterd;
     },
     webFilter() {
+      this.addActiveClass(5);
       this.addProjects();
       const webFilterd = this.projects.filter((project) => project.category.match('web'));
       this.projects = webFilterd;
+    },
+    addActiveClass(el) {
+      this.activeEl = el;
     },
   },
 };
