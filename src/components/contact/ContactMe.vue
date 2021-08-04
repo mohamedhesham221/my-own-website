@@ -47,7 +47,7 @@ export default {
     return {
       mobile: '01025742930',
       copy: false,
-      href: 'https://drive.google.com/file/d/1mSYwP-P8cE2zYDnmrXcnUQLq1xiBfp9W/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1vldQGot_g3eYlIu28mw2Ef4kGyDZnq1z/view?usp=sharing',
     };
   },
   created() {
