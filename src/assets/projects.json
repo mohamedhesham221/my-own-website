@@ -70,5 +70,13 @@
     "live": "https://sunnyside-landinpage.netlify.app/",
     "category": "landing",
     "desc": "landing page challenged by frontend mentor"
+},
+{
+    "id": 10,
+    "name": "To-Do list",
+    "github": "https://github.com/mohamedhesham221/todo-list2021",
+    "live": "https://todo-vue-main2021.netlify.app/",
+    "category": "pwa",
+    "desc": "todo list to display all the tasks that you want to do ! challenged by frontend mentor"
 }
 ]
